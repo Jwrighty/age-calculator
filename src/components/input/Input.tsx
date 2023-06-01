@@ -39,7 +39,7 @@ export default function Input({
         id={format}
         type={type}
         placeholder={placeholder}
-        className={`w-full rounded-lg border px-2 py-3 text-xl font-extrabold focus:border-purple-600 focus:outline-none sm:px-4  ${
+        className={`w-full rounded-lg border px-2 py-3 text-xl font-extrabold hover:border-purple-300 focus:border-purple-600 focus:outline-none sm:px-4  ${
           error ? "border-red-600" : ""
         }`}
         {...register(format, {
