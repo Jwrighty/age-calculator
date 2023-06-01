@@ -12,8 +12,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -53,5 +51,5 @@ Users should be able to:
 
 Forms and especially validations are tricky & react hook form is cool.
 Some more familiarity with Tailwind classes, always useful.
-Got to explore Luxon for date & time have previously only really used momemt in production apps
-Trying out Vite for the first time. Simple and speedy
+Got to explore Luxon for date & time having previously only really used momemtJS in production apps.
+Trying out Vite for the first time. Simple and speedy.
