@@ -78,13 +78,14 @@ export default function Form({ setAge }: Props) {
           valueAsNumber
         />
       </div>
-      <div className="relative flex w-full justify-center sm:justify-end mt-6 sm:mt-4">
-        <span className="absolute top-1/2 block h-[2px] w-full sm:w-11/12 bg-slate-200 left-0" />
+      <div className="relative mt-6 flex w-full justify-center sm:mt-4 sm:justify-end">
+        <span className="absolute left-0 top-1/2 block h-[2px] w-full bg-slate-200 sm:w-11/12" />
         <motion.button
           type="submit"
           className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-purple-500 sm:h-20 sm:w-20"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
+          aria-label="submit form"
         >
           <Arrow />
         </motion.button>
